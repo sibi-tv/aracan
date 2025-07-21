@@ -3,6 +3,7 @@ package com.aracan.backend.dto;
 import com.aracan.backend.entity.Address;
 import com.aracan.backend.entity.Order;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDateTime;
@@ -11,6 +12,7 @@ import java.util.Set;
 
 @Getter
 @Setter
+@NoArgsConstructor
 public class UserDTO {
 
     private String _cognitoSub;
